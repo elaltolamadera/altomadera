@@ -35,6 +35,14 @@
 
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  
+  <script type="text/javascript">
+  <!--
+    function showImage(){
+        document.getElementById('loadingImage').style.visibility="visible";
+    }
+   -->
+   </script>
 
 </head>
 
@@ -157,7 +165,11 @@
         <em>your</em>
         next website!</h2>
       -->
+      <!--
       <a class="btn btn-primary btn-xl" href="https://www.google.com/search?q=fotos+costillas&rlz=1C1GCEA_enES783ES783&source=lnms&tbm=isch&sa=X&ved=0ahUKEwio1M_G1dDiAhXU5-AKHVJpBtMQ_AUIECgB&biw=1920&bih=937">Menú disponible!</a>
+    -->
+            <a class="btn btn-primary btn-xl" onclick="showImage();">Menú disponible!</a>
+            <img id="loadingImage" href="/img/portfolio-1.jpg" style="visibility:hidden"/>
     </div>
   </section>
 
